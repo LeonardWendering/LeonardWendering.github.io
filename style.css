@@ -77,7 +77,7 @@ h2 {
 /* Box Image Placeholder */
 .box-image img {
     width: 100%;    /* Make image fill the container width */
-    height: 350px;  /* Set image height to match container */
+    height: 450px;  /* Set image height to match container */
     object-fit: cover; /* Ensure the image covers the container without distortion */
     border-radius: 5px; /* Optional: match the box corner rounding */
 }
