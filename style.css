@@ -14,77 +14,33 @@ body {
 header {
     background-color: #333;
     color: #fff;
-    padding: 1.5rem;
+    padding: 1rem;
     text-align: center;
 }
 
 main {
     padding: 2rem;
-    max-width: 800px;
-    margin: 0 auto;
 }
 
-#contact {
+section {
     margin-bottom: 2rem;
 }
 
-.contact-card {
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 1.5rem;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.contact-card p {
+h2 {
+    color: #333;
     margin-bottom: 1rem;
-    font-size: 1.1rem;
 }
 
-.contact-card p strong {
-    color: #007bff;
+#home p {
+    margin-bottom: 2rem;
 }
 
-.contact-card a {
-    color: #007bff;
-    text-decoration: none;
-    font-weight: bold;
+/* Box Container Styling */
+.box-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
 }
-
-.contact-card a:hover {
-    text-decoration: underline;
-    color: #0056b3;
-}
-
-.button-container {
-    text-align: center;
-    margin-top: 2rem;
-}
-
-.back-button {
-    display: inline-block;
-    padding: 10px 20px;
-    color: #fff;
-    background-color: #007bff;
-    border-radius: 5px;
-    text-decoration: none;
-    font-weight: bold;
-    transition: background-color 0.3s;
-}
-
-.back-button:hover {
-    background-color: #0056b3;
-}
-
-footer {
-    text-align: center;
-    padding: 1rem;
-    background-color: #333;
-    color: #fff;
-    margin-top: 2rem;
-    font-size: 0.9em;
-}
-
 
 /* Individual Box Styling */
 .box {
@@ -121,7 +77,16 @@ footer {
 /* Box Image Placeholder */
 .box-image img {
     width: 100%;    /* Make image fill the container width */
-    height: 350px;  /* Set image height to match container */
+    height: 450px;  /* Set image height to match container */
     object-fit: cover; /* Ensure the image covers the container without distortion */
     border-radius: 5px; /* Optional: match the box corner rounding */
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+    margin-top: 2rem;
 }
