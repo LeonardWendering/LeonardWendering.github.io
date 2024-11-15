@@ -3,45 +3,37 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     background-color: #f4f4f9;
     color: #333;
 }
-
 header {
     background-color: #333;
     color: #fff;
     padding: 1rem;
     text-align: center;
 }
-
 main {
     padding: 2rem;
 }
-
 section {
     margin-bottom: 2rem;
 }
-
 h2 {
     color: #333;
     margin-bottom: 1rem;
 }
-
 #home p {
     margin-bottom: 2rem;
 }
-
 /* Box Container Styling */
 .box-container {
     display: flex;
     justify-content: space-between;
     gap: 1rem;
 }
-
 /* Individual Box Styling */
 .box {
     flex: 1;
@@ -49,42 +41,37 @@ h2 {
     border: 2px solid #ddd;
     border-radius: 5px;
     text-align: center;
-    padding: 1rem;
+    padding: 1.5rem; /* Increased padding */
     text-decoration: none;
     color: inherit;
     transition: transform 0.3s, box-shadow 0.3s;
-    display: block; /* Makes the entire box clickable */
-    overflow: hidden; /* Ensures content doesn't overflow */
+    display: block;
+    overflow: hidden;
 }
-
 .box:hover {
     transform: scale(1.05);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-
 .box-title {
     font-size: 1.25rem;
     font-weight: bold;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem; /* Increased margin */
     color: #007bff;
 }
-
 /* Box Image Styling */
 .box-image {
     width: 100%;
-    height: 150px; /* Placeholder height */
+    height: 250px; /* Increased height from 150px to 250px */
     background-color: #f0f0f0;
     border-radius: 5px;
-    overflow: hidden; /* Ensures images don't overflow the box */
+    overflow: hidden;
 }
-
 .box-image img {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Ensures the image fills the container without distortion */
+    object-fit: cover;
     border-radius: 5px;
 }
-
 /* Footer Styling */
 footer {
     text-align: center;
