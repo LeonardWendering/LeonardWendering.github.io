@@ -4,66 +4,124 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FAQ</title>
-    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: system-ui, -apple-system, sans-serif;
+            line-height: 1.5;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .toc {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+        }
+        .toc h2 {
+            margin-top: 0;
+        }
+        .toc ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        .toc a {
+            text-decoration: none;
+            color: #007bff;
+        }
+        .faq-section {
+            margin-bottom: 40px;
+        }
+        .faq-item {
+            margin-bottom: 20px;
+        }
+        .back-button {
+            display: inline-block;
+            padding: 1rem 2rem;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            text-align: center;
+        }
+        footer {
+            margin-top: 40px;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
     <header>
         <h1>FAQ: Fragen und Antworten</h1>
     </header>
 
+    <div class="toc">
+        <h2>Inhaltsverzeichnis</h2>
+        <ul>
+            <li><a href="#sitzordnung">Sitzordnung und Organisation</a></li>
+            <li><a href="#teilnahme">Teilnahme und Befragungen</a></li>
+            <li><a href="#zeitraum">Zeitraum und Abwesenheit</a></li>
+            <li><a href="#kontakt">Kontakt und Support</a></li>
+        </ul>
+    </div>
+
     <main>
-        <section id="faq">
-            <ul>
-                <li><strong>Darf ich die Schüler*innen umsetzen?</strong></li>
-                <p>Antwort: Ja. Bitte halten Sie im digitalen Klassenbuch fest wer und wann umgesetzt wurde.</p>
-                
-                <br/>
-
-                <li><strong>Kann ich die Sitzordnung oder Anordnung der Tische für Gruppenarbeiten oder Ähnliches auflösen?</strong></li>
-                <p>Antwort: Selbstverständnlich. Ich bitte Sie, die Tisch- und Sitzordnung im Anschluss wieder herzustellen.</p>
-                
-                <br/>
-                
-                <li><strong>Was ist, wenn eine Schüler*in sich weigert, neben einer Mitschüler*in zu sitzen?</strong></li>
-                <p>Antwort: Alle Entscheidungen liegen bei Ihnen. Bitte dokumentieren Sie solche Fälle im digitalen Klassenbuch.</p>
-                
-                <br/>
-                
-                <li><strong>Müssen die Schüler*innen an den Befragungen teilnehmen?</strong></li>
-                <p>Antwort: Nein, die Teilnahme an den Befragungen ist freiwillig. Die Sitzordnung gilt aber für alle Schüler*innen.</p>
-                
-                <br/>
-
-                <li><strong>Was soll ich den Schüler*innen sagen, wenn sie nach dem Grund für die Sitzordnung fragen?</strong></li>
-                <p>Antwort: Sie können auf die Einführung durch den Forscher verweisen. Bei spezifischen Nachfragen können Sie die Schüler*innen an Leonard Wendering (leonard.wendering@uni-mannheim.de) verweisen.</p>
-
-                <br/>
-
-                <li><strong>Wie lange soll die vorgegebene Sitzordnung eingehalten werden?</strong></li>
-                <p>Antwort: Vom 26.11./27.11. bis 20.12.24. Der Beginn des Experiments hängt von der Dauer der Einführung Ihrer Klasse ab.</p>
-
-                <br/>
-
-                <li><strong>Was mache ich, wenn Schüler*innen krank sind? </strong></li>
-                <p>Antwort: Bitte lassen Sie die Plätze der kranken Schüler*innen, wenn möglich, frei. So bleiben die Sitzordnung und damit auch die Kontaktmöglichkeiten für die anwesenden Schüler*innen konstant. Das ist wichtig für die Aussagekraft der Studie.</p>
-
-                <br/>
-                
-                <li><strong>Von meinem Unterricht ist ein Teil der Klasse befreit. Soll ich die Sitzordnung beibehalten?</strong></li>
-                <p>Antwort: Das ist Ihre Entscheidung. Sie können für Unterrichtseinheiten, an denen ein Teil der Schüler*innen nicht teilnehmen muss, die Schüler*innen zusammenrücken lassen. </p>
-                
-                <br/>
-                
-                <li><strong>An wen kann ich mich bei weiteren Fragen wenden?</strong></li>
-                <p>Antwort: Frau Castle-Ristl oder Leonard Wendering, erreichbar unter leonard.wendering@uni-mannheim.de.</p>
-
-            
-            </ul>
+        <section id="sitzordnung" class="faq-section">
+            <h2>Sitzordnung und Organisation</h2>
+            <div class="faq-item">
+                <strong>Darf ich die Schüler*innen umsetzen?</strong>
+                <p>Ja. Bitte halten Sie im digitalen Klassenbuch fest wer und wann umgesetzt wurde.</p>
+            </div>
+            <div class="faq-item">
+                <strong>Kann ich die Sitzordnung oder Anordnung der Tische für Gruppenarbeiten oder Ähnliches auflösen?</strong>
+                <p>Selbstverständnlich. Ich bitte Sie, die Tisch- und Sitzordnung im Anschluss wieder herzustellen.</p>
+            </div>
+            <div class="faq-item">
+                <strong>Was ist, wenn eine Schüler*in sich weigert, neben einer Mitschüler*in zu sitzen?</strong>
+                <p>Alle Entscheidungen liegen bei Ihnen. Bitte dokumentieren Sie solche Fälle im digitalen Klassenbuch.</p>
+            </div>
         </section>
-        <div class="button-container" style="display: flex; justify-content: center; margin-top: 2rem;">
-            <a href="index.html" class="back-button" style="display: inline-block; padding: 1rem 2rem; background-color: #007bff; color: #fff; text-decoration: none; border-radius: 5px; font-weight: bold; text-align: center;">Zurück zur Startseite</a>
-        </div>
 
+        <section id="teilnahme" class="faq-section">
+            <h2>Teilnahme und Befragungen</h2>
+            <div class="faq-item">
+                <strong>Müssen die Schüler*innen an den Befragungen teilnehmen?</strong>
+                <p>Nein, die Teilnahme an den Befragungen ist freiwillig. Die Sitzordnung gilt aber für alle Schüler*innen.</p>
+            </div>
+            <div class="faq-item">
+                <strong>Was soll ich den Schüler*innen sagen, wenn sie nach dem Grund für die Sitzordnung fragen?</strong>
+                <p>Sie können auf die Einführung durch den Forscher verweisen. Bei spezifischen Nachfragen können Sie die Schüler*innen an Leonard Wendering (leonard.wendering@uni-mannheim.de) verweisen.</p>
+            </div>
+        </section>
+
+        <section id="zeitraum" class="faq-section">
+            <h2>Zeitraum und Abwesenheit</h2>
+            <div class="faq-item">
+                <strong>Wie lange soll die vorgegebene Sitzordnung eingehalten werden?</strong>
+                <p>Vom 26.11./27.11. bis 20.12.24. Der Beginn des Experiments hängt von der Dauer der Einführung Ihrer Klasse ab.</p>
+            </div>
+            <div class="faq-item">
+                <strong>Was mache ich, wenn Schüler*innen krank sind?</strong>
+                <p>Bitte lassen Sie die Plätze der kranken Schüler*innen, wenn möglich, frei. So bleiben die Sitzordnung und damit auch die Kontaktmöglichkeiten für die anwesenden Schüler*innen konstant. Das ist wichtig für die Aussagekraft der Studie.</p>
+            </div>
+            <div class="faq-item">
+                <strong>Von meinem Unterricht ist ein Teil der Klasse befreit. Soll ich die Sitzordnung beibehalten?</strong>
+                <p>Das ist Ihre Entscheidung. Sie können für Unterrichtseinheiten, an denen ein Teil der Schüler*innen nicht teilnehmen muss, die Schüler*innen zusammenrücken lassen.</p>
+            </div>
+        </section>
+
+        <section id="kontakt" class="faq-section">
+            <h2>Kontakt und Support</h2>
+            <div class="faq-item">
+                <strong>An wen kann ich mich bei weiteren Fragen wenden?</strong>
+                <p>Frau Castle-Ristl oder Leonard Wendering, erreichbar unter leonard.wendering@uni-mannheim.de.</p>
+            </div>
+        </section>
+
+        <div class="button-container" style="display: flex; justify-content: center; margin-top: 2rem;">
+            <a href="index.html" class="back-button">Zurück zur Startseite</a>
+        </div>
     </main>
 
     <footer>
