@@ -13,7 +13,7 @@
             padding: 20px;
         }
         .toc {
-            background: #f8f9fa;
+            border: 2px solid #ccc;
             padding: 20px;
             border-radius: 8px;
             margin-bottom: 30px;
@@ -21,13 +21,23 @@
         .toc h2 {
             margin-top: 0;
         }
-        .toc ul {
-            list-style: none;
-            padding-left: 0;
+        .toc-section {
+            margin-bottom: 15px;
         }
-        .toc a {
+        .toc-section h3 {
+            margin-bottom: 10px;
+            color: #333;
+        }
+        .toc-section ul {
+            list-style: none;
+            padding-left: 20px;
+            margin: 0;
+        }
+        .toc-section a {
             text-decoration: none;
             color: #007bff;
+            display: block;
+            padding: 4px 0;
         }
         .faq-section {
             margin-bottom: 40px;
@@ -58,33 +68,52 @@
 
     <div class="toc">
         <h2>Übersicht</h2>
-        <ul>
-            <li><a href="#sitzordnung">Sitzordnung</a></li>
-            <li><a href="#teilnahme">Teilnahme und Befragungen</a></li>
-            <li><a href="#zeitraum">Organisatorisches</a></li>
-        </ul>
+        <div class="toc-section">
+            <h3>Sitzordnung</h3>
+            <ul>
+                <li><a href="#umsetzen">Darf ich die Schüler*innen umsetzen?</a></li>
+                <li><a href="#gruppenarbeit">Kann ich die Sitzordnung für Gruppenarbeiten auflösen?</a></li>
+                <li><a href="#verweigerung">Was ist bei Verweigerung des Sitzplatzes?</a></li>
+                <li><a href="#kranke">Was mache ich bei kranken Schüler*innen?</a></li>
+                <li><a href="#befreiung">Vorgehen bei Unterrichtsbefreiung?</a></li>
+            </ul>
+        </div>
+        <div class="toc-section">
+            <h3>Teilnahme und Befragungen</h3>
+            <ul>
+                <li><a href="#teilnahmepflicht">Müssen alle an Befragungen teilnehmen?</a></li>
+                <li><a href="#nachfragen">Umgang mit Nachfragen zur Sitzordnung?</a></li>
+            </ul>
+        </div>
+        <div class="toc-section">
+            <h3>Organisatorisches</h3>
+            <ul>
+                <li><a href="#dauer">Wie lange gilt die Sitzordnung?</a></li>
+                <li><a href="#kontakt">An wen wende ich mich bei Fragen?</a></li>
+            </ul>
+        </div>
     </div>
 
     <main>
         <section id="sitzordnung" class="faq-section">
             <h2>Sitzordnung</h2>
-            <div class="faq-item">
+            <div id="umsetzen" class="faq-item">
                 <strong>Darf ich die Schüler*innen umsetzen?</strong>
                 <p>Ja. Bitte halten Sie im digitalen Klassenbuch fest wer und wann umgesetzt wurde.</p>
             </div>
-            <div class="faq-item">
+            <div id="gruppenarbeit" class="faq-item">
                 <strong>Kann ich die Sitzordnung oder Anordnung der Tische für Gruppenarbeiten oder Ähnliches auflösen?</strong>
                 <p>Selbstverständnlich. Ich bitte Sie, die Tisch- und Sitzordnung im Anschluss wieder herzustellen.</p>
             </div>
-            <div class="faq-item">
+            <div id="verweigerung" class="faq-item">
                 <strong>Was ist, wenn eine Schüler*in sich weigert, neben einer Mitschüler*in zu sitzen?</strong>
                 <p>Alle Entscheidungen liegen bei Ihnen. Bitte dokumentieren Sie Umsetzungen im digitalen Klassenbuch.</p>
             </div>
-            <div class="faq-item">
+            <div id="kranke" class="faq-item">
                 <strong>Was mache ich, wenn Schüler*innen krank sind?</strong>
                 <p>Bitte lassen Sie die Plätze der kranken Schüler*innen, wenn möglich, frei. So bleiben die Sitzordnung und damit auch die Kontaktmöglichkeiten für die anwesenden Schüler*innen konstant.</p>
             </div>
-            <div class="faq-item">
+            <div id="befreiung" class="faq-item">
                 <strong>Ein Teil der Klasse ist von meinem Unterricht befreit. Soll ich die Sitzordnung beibehalten?</strong>
                 <p>Das ist Ihre Entscheidung. Sie können für Unterrichtseinheiten, an denen ein Teil der Schüler*innen nicht teilnehmen muss, die Schüler*innen zusammenrücken lassen.</p>
             </div>
@@ -92,11 +121,11 @@
 
         <section id="teilnahme" class="faq-section">
             <h2>Teilnahme und Befragungen</h2>
-            <div class="faq-item">
+            <div id="teilnahmepflicht" class="faq-item">
                 <strong>Müssen die Schüler*innen an den Befragungen teilnehmen?</strong>
                 <p>Nein, die Teilnahme an den Befragungen ist freiwillig. Die Sitzordnung gilt aber für alle Schüler*innen.</p>
             </div>
-            <div class="faq-item">
+            <div id="nachfragen" class="faq-item">
                 <strong>Was soll ich den Schüler*innen sagen, wenn sie nach dem Grund für die Sitzordnung fragen?</strong>
                 <p>Sie können auf die Einführung durch den Forscher verweisen. Für Nachfragen können Sie die Schüler*innen an Leonard Wendering (leonard.wendering@uni-mannheim.de) verweisen.</p>
             </div>
@@ -104,11 +133,11 @@
 
         <section id="zeitraum" class="faq-section">
             <h2>Organisatorisches</h2>
-            <div class="faq-item">
+            <div id="dauer" class="faq-item">
                 <strong>Wie lange soll die vorgegebene Sitzordnung eingehalten werden?</strong>
                 <p>Vom 26.11./27.11. bis 20.12.24. Der Beginn des Experiments hängt von der Dauer der Einführung Ihrer Klasse ab.</p>
             </div>
-            <div class="faq-item">
+            <div id="kontakt" class="faq-item">
                 <strong>An wen kann ich mich bei weiteren Fragen wenden?</strong>
                 <p>Frau Castle-Ristl oder Leonard Wendering, erreichbar unter leonard.wendering@uni-mannheim.de.</p>
             </div>
